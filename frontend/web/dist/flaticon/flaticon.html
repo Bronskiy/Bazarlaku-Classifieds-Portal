@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<!--
+  Flaticon icon font: Flaticon
+  Creation date: 05/10/2017 21:29
+-->
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    body {
+        font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    a {
+        color: #333;
+        border-bottom: 1px solid #a9fd00;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1em;
+    }
+    .title {
+        font-size: 1.25em;
+        text-align: center;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    header {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        padding: 1em;
+    }
+    header .logo {
+        width: 210px;
+        height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        border: none;
+    }
+    header strong {
+        font-size: 1.95em;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .demo {
+        margin: 2em auto;
+        line-height: 1.25em;
+    }
+    .demo ul li {
+        margin-bottom: 1em;
+    }
+    .demo ul li .num {
+        color: #222;
+        border-radius: 20px;
+        display: inline-block;
+        width: 26px;
+        padding: 3px;
+        height: 26px;
+        text-align: center;
+        margin-right: 0.5em;
+        border: 1px solid #222;
+    }
+    .demo ul li code {
+        background-color: #222;
+        border-radius: 4px;
+        padding: 0.25em 0.5em;
+        display: inline-block;
+        color: #fff;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        font-weight: lighter;
+        margin-top: 1em;
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    .demo ul li code.big {
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    .demo ul li code .red {
+        color: #EF3159;
+    }
+    .demo ul li code .green {
+        color: #ACFF65;
+    }
+    .demo ul li code .yellow {
+        color: #FFFF99;
+    }
+    .demo ul li code .blue {
+        color: #99D3FF;
+    }
+    .demo ul li code .purple {
+        color: #A295FF;
+    }
+    .demo ul li code .dots {
+        margin-top: 0.5em;
+        display: block;
+    }
+    #glyphs {
+        border-bottom: 1px solid #ccc;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .glyph {
+        display: inline-block;
+        width: 9em;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #222;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+        padding: 0.5em;
+        color: #FFFF99;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    .author-name {
+        font-size: 0.6em;
+        background-color: #fcfcfd;
+        border: 1px solid #DEDEE4;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        padding: 0.5em;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#a9fd00;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .attribution .title {
+        margin-top: 2em;
+    }
+    .attribution textarea {
+        background-color: #fcfcfd;
+        padding: 1em;
+        border: none;
+        box-shadow: none;
+        border: 1px solid #DEDEE4;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        height: 150px;
+        font-size: 0.8em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        -webkit-appearance: none;
+    }
+    .iconsuse {
+        margin: 2em auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+    .iconsuse:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .iconsuse .image {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+    .iconsuse .image p {
+        margin-bottom: 1em;
+    }
+    .iconsuse .image span {
+        display: block;
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5em;
+        color: #FFFF99;
+        margin-top: 1em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    #footer {
+        text-align: center;
+        background-color: #4C5B5C;
+        color: #7c9192;
+        padding: 1em;
+    }
+    #footer a {
+        border: none;
+        color: #a9fd00;
+        font-weight: normal;
+    }
+    @media (max-width: 960px) {
+        .iconsuse .image {
+            width: 50%;
+        }
+    }
+    @media (max-width: 560px) {
+        .iconsuse .image {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body class="characters-off">
+
+    <header>
+        <a href="http://www.flaticon.com" target="_blank" class="logo">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 560.875 102.036" enable-background="new 0 0 560.875 102.036" xml:space="preserve">
+                <defs>
+                </defs>
+                <g>
+                    <g class="letters">
+                        <path fill="#ffffff" d="M141.596,29.675c0-3.777,2.985-6.767,6.764-6.767h34.438c3.426,0,6.15,2.728,6.15,6.15
+                        c0,3.43-2.724,6.149-6.15,6.149h-27.674v13.091h23.719c3.429,0,6.151,2.724,6.151,6.15c0,3.43-2.723,6.149-6.151,6.149h-23.719
+                        v17.574c0,3.773-2.986,6.761-6.764,6.761c-3.779,0-6.764-2.989-6.764-6.761V29.675z"></path>
+                        <path fill="#ffffff" d="M193.844,29.149c0-3.781,2.985-6.767,6.764-6.767c3.776,0,6.763,2.985,6.763,6.767v42.957h25.039
+                        c3.426,0,6.149,2.726,6.149,6.153c0,3.425-2.723,6.15-6.149,6.15h-31.802c-3.779,0-6.764-2.986-6.764-6.768V29.149z"></path>
+                        <path fill="#ffffff" d="M241.891,75.71l21.438-48.407c1.492-3.341,4.215-5.357,7.906-5.357h0.792
+                        c3.686,0,6.323,2.017,7.815,5.357l21.439,48.407c0.436,0.967,0.701,1.845,0.701,2.723c0,3.602-2.809,6.501-6.414,6.501
+                        c-3.161,0-5.269-1.845-6.499-4.655l-4.132-9.661h-27.059l-4.301,10.102c-1.144,2.631-3.426,4.214-6.237,4.214
+                        c-3.517,0-6.24-2.81-6.24-6.325C241.1,77.64,241.451,76.677,241.891,75.71z M279.932,58.666l-8.521-20.297l-8.526,20.297H279.932
+                        z"></path>
+                        <path fill="#ffffff" d="M314.864,35.387H301.86c-3.429,0-6.239-2.813-6.239-6.238c0-3.429,2.811-6.24,6.239-6.24h39.533
+                        c3.426,0,6.237,2.811,6.237,6.24c0,3.425-2.811,6.238-6.237,6.238h-13.001v42.785c0,3.773-2.99,6.761-6.764,6.761
+                        c-3.779,0-6.764-2.989-6.764-6.761V35.387z"></path>
+                        <path fill="#A9FD00" d="M352.615,29.149c0-3.781,2.985-6.767,6.767-6.767c3.774,0,6.761,2.985,6.761,6.767v49.024
+                        c0,3.773-2.987,6.761-6.761,6.761c-3.781,0-6.767-2.989-6.767-6.761V29.149z"></path>
+                        <path fill="#A9FD00" d="M374.132,53.836v-0.179c0-17.481,13.178-31.801,32.065-31.801c9.22,0,15.459,2.458,20.557,6.238
+                        c1.402,1.054,2.637,2.985,2.637,5.357c0,3.692-2.985,6.59-6.681,6.59c-1.845,0-3.071-0.702-4.044-1.319
+                        c-3.776-2.813-7.729-4.393-12.562-4.393c-10.364,0-17.831,8.611-17.831,19.154v0.173c0,10.542,7.291,19.329,17.831,19.329
+                        c5.715,0,9.492-1.756,13.359-4.834c1.049-0.874,2.458-1.491,4.039-1.491c3.429,0,6.325,2.813,6.325,6.236
+                        c0,2.106-1.056,3.78-2.282,4.834c-5.539,4.834-12.036,7.733-21.878,7.733C387.572,85.464,374.132,71.493,374.132,53.836z"></path>
+                        <path fill="#A9FD00" d="M433.009,53.836v-0.179c0-17.481,13.79-31.801,32.766-31.801c18.981,0,32.592,14.143,32.592,31.628v0.173
+                        c0,17.483-13.785,31.807-32.769,31.807C446.625,85.464,433.009,71.32,433.009,53.836z M484.224,53.836v-0.179
+                        c0-10.539-7.725-19.326-18.626-19.326c-10.893,0-18.449,8.611-18.449,19.154v0.173c0,10.542,7.73,19.329,18.626,19.329
+                        C476.676,72.986,484.224,64.378,484.224,53.836z"></path>
+                        <path fill="#A9FD00" d="M506.233,29.321c0-3.774,2.99-6.763,6.767-6.763h1.401c3.252,0,5.183,1.583,7.029,3.953l26.093,34.265
+                        V29.059c0-3.692,2.99-6.677,6.681-6.677c3.683,0,6.671,2.985,6.671,6.677v48.934c0,3.78-2.987,6.765-6.764,6.765h-0.436
+                        c-3.257,0-5.188-1.581-7.034-3.953l-27.056-35.492v32.944c0,3.687-2.985,6.676-6.678,6.676c-3.683,0-6.673-2.989-6.673-6.676
+                        V29.321z"></path>
+                    </g>
+                    <g class="insignia">
+                        <path fill="#ffffff" d="M48.372,56.137h12.517l11.156-18.537H37.186L25.688,18.539h57.825L94.668,0H9.271
+                        C5.925,0,2.842,1.801,1.198,4.716c-1.644,2.907-1.593,6.482,0.134,9.343l50.38,83.501c1.678,2.781,4.689,4.476,7.938,4.476
+                        c3.246,0,6.257-1.695,7.935-4.476l2.898-4.804L48.372,56.137z"></path>
+                        <g class="i">
+                            <path fill="#A9FD00" d="M93.575,18.539h0.031v0.004l21.652,0.004l2.705-4.488c1.727-2.861,1.778-6.436,0.133-9.343
+                            C116.454,1.801,113.371,0,110.026,0h-5.294L93.575,18.539z"></path>
+                            <polygon fill="#A9FD00" points="88.291,27.356 64.725,66.486 75.519,84.404 109.942,27.356"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <strong>Font Demo</strong>
+    </header>
+
+
+    <section class="demo wrapper">
+
+        <p class="title">Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2</span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span class="yellow">"stylesheet"</span> <span class="green">type</span>=<span class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/flaticon.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3</span>Use the icon class on <code>"<span class="blue">display</span>:<span class="purple"> inline</span>"</code> elements:
+                    <br />
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+
+   <section id="glyphs">          
+    
+      
+        <div class="glyph"><div class="glyph-icon flaticon--01-userinterface-trash"></div>
+            <div class="class-name">.flaticon--01-userinterface-trash</div>
+            <div class="author-name">Author: <a data-file="-01-userinterface-trash" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon--02-userinterface-note"></div>
+            <div class="class-name">.flaticon--02-userinterface-note</div>
+            <div class="author-name">Author: <a data-file="-02-userinterface-note" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon--03-userinterface-unloack"></div>
+            <div class="class-name">.flaticon--03-userinterface-unloack</div>
+            <div class="author-name">Author: <a data-file="-03-userinterface-unloack" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon--04-userinterface-uploads"></div>
+            <div class="class-name">.flaticon--04-userinterface-uploads</div>
+            <div class="author-name">Author: <a data-file="-04-userinterface-uploads" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-time-3"></div>
+            <div class="class-name">.flaticon-userinterface-time-3</div>
+            <div class="author-name">Author: <a data-file="000-userinterface-time-3" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-tick"></div>
+            <div class="class-name">.flaticon-userinterface-tick</div>
+            <div class="author-name">Author: <a data-file="001-userinterface-tick" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-settings"></div>
+            <div class="class-name">.flaticon-userinterface-settings</div>
+            <div class="author-name">Author: <a data-file="002-userinterface-settings" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-settings-ui"></div>
+            <div class="class-name">.flaticon-userinterface-settings-ui</div>
+            <div class="author-name">Author: <a data-file="003-userinterface-settings-ui" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-setting-roll"></div>
+            <div class="class-name">.flaticon-userinterface-setting-roll</div>
+            <div class="author-name">Author: <a data-file="004-userinterface-setting-roll" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-search-53"></div>
+            <div class="class-name">.flaticon-userinterface-search-53</div>
+            <div class="author-name">Author: <a data-file="005-userinterface-search-53" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-report-flag"></div>
+            <div class="class-name">.flaticon-userinterface-report-flag</div>
+            <div class="author-name">Author: <a data-file="006-userinterface-report-flag" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-open-64"></div>
+            <div class="class-name">.flaticon-userinterface-open-64</div>
+            <div class="author-name">Author: <a data-file="007-userinterface-open-64" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-minuse-page"></div>
+            <div class="class-name">.flaticon-userinterface-minuse-page</div>
+            <div class="author-name">Author: <a data-file="008-userinterface-minuse-page" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-mail-open"></div>
+            <div class="class-name">.flaticon-userinterface-mail-open</div>
+            <div class="author-name">Author: <a data-file="009-userinterface-mail-open" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-mail-67"></div>
+            <div class="class-name">.flaticon-userinterface-mail-67</div>
+            <div class="author-name">Author: <a data-file="010-userinterface-mail-67" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-mail-61"></div>
+            <div class="class-name">.flaticon-userinterface-mail-61</div>
+            <div class="author-name">Author: <a data-file="011-userinterface-mail-61" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-locate"></div>
+            <div class="class-name">.flaticon-userinterface-locate</div>
+            <div class="author-name">Author: <a data-file="012-userinterface-locate" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-loack49"></div>
+            <div class="class-name">.flaticon-userinterface-loack49</div>
+            <div class="author-name">Author: <a data-file="013-userinterface-loack49" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-load"></div>
+            <div class="class-name">.flaticon-userinterface-load</div>
+            <div class="author-name">Author: <a data-file="014-userinterface-load" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-image"></div>
+            <div class="class-name">.flaticon-userinterface-image</div>
+            <div class="author-name">Author: <a data-file="015-userinterface-image" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-drag"></div>
+            <div class="class-name">.flaticon-userinterface-drag</div>
+            <div class="author-name">Author: <a data-file="016-userinterface-drag" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-favorite"></div>
+            <div class="class-name">.flaticon-userinterface-favorite</div>
+            <div class="author-name">Author: <a data-file="017-userinterface-favorite" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-drawer-1"></div>
+            <div class="class-name">.flaticon-userinterface-drawer-1</div>
+            <div class="author-name">Author: <a data-file="018-userinterface-drawer-1" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-comment"></div>
+            <div class="class-name">.flaticon-userinterface-comment</div>
+            <div class="author-name">Author: <a data-file="019-userinterface-comment" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-downloads"></div>
+            <div class="class-name">.flaticon-userinterface-downloads</div>
+            <div class="author-name">Author: <a data-file="020-userinterface-downloads" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-close-page-89"></div>
+            <div class="class-name">.flaticon-userinterface-close-page-89</div>
+            <div class="author-name">Author: <a data-file="021-userinterface-close-page-89" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-clock"></div>
+            <div class="class-name">.flaticon-userinterface-clock</div>
+            <div class="author-name">Author: <a data-file="022-userinterface-clock" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-browser-close"></div>
+            <div class="class-name">.flaticon-userinterface-browser-close</div>
+            <div class="author-name">Author: <a data-file="023-userinterface-browser-close" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-browser-minus"></div>
+            <div class="class-name">.flaticon-userinterface-browser-minus</div>
+            <div class="author-name">Author: <a data-file="024-userinterface-browser-minus" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-browser-check"></div>
+            <div class="class-name">.flaticon-userinterface-browser-check</div>
+            <div class="author-name">Author: <a data-file="025-userinterface-browser-check" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-browser-add"></div>
+            <div class="class-name">.flaticon-userinterface-browser-add</div>
+            <div class="author-name">Author: <a data-file="026-userinterface-browser-add" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-bookmarks"></div>
+            <div class="class-name">.flaticon-userinterface-bookmarks</div>
+            <div class="author-name">Author: <a data-file="027-userinterface-bookmarks" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-bookmark"></div>
+            <div class="class-name">.flaticon-userinterface-bookmark</div>
+            <div class="author-name">Author: <a data-file="028-userinterface-bookmark" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-add-page"></div>
+            <div class="class-name">.flaticon-userinterface-add-page</div>
+            <div class="author-name">Author: <a data-file="029-userinterface-add-page" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-userinterface-abacuse"></div>
+            <div class="class-name">.flaticon-userinterface-abacuse</div>
+            <div class="author-name">Author: <a data-file="030-userinterface-abacuse" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-verticle-bars"></div>
+            <div class="class-name">.flaticon-user-interaction-review-verticle-bars</div>
+            <div class="author-name">Author: <a data-file="031-user-interaction-review-verticle-bars" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-view-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-view-user</div>
+            <div class="author-name">Author: <a data-file="032-user-interaction-review-view-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-user</div>
+            <div class="author-name">Author: <a data-file="033-user-interaction-review-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-unview-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-unview-user</div>
+            <div class="author-name">Author: <a data-file="034-user-interaction-review-unview-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-unlock-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-unlock-user</div>
+            <div class="author-name">Author: <a data-file="035-user-interaction-review-unlock-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-unlock-user-rd"></div>
+            <div class="class-name">.flaticon-user-interaction-review-unlock-user-rd</div>
+            <div class="author-name">Author: <a data-file="036-user-interaction-review-unlock-user-rd" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-success-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-success-user</div>
+            <div class="author-name">Author: <a data-file="037-user-interaction-review-success-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-star-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-star-user</div>
+            <div class="author-name">Author: <a data-file="038-user-interaction-review-star-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-settings-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-settings-user</div>
+            <div class="author-name">Author: <a data-file="039-user-interaction-review-settings-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-search-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-search-user</div>
+            <div class="author-name">Author: <a data-file="040-user-interaction-review-search-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-remove-user-03"></div>
+            <div class="class-name">.flaticon-user-interaction-review-remove-user-03</div>
+            <div class="author-name">Author: <a data-file="042-user-interaction-review-remove-user-03" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-remove-user-02"></div>
+            <div class="class-name">.flaticon-user-interaction-review-remove-user-02</div>
+            <div class="author-name">Author: <a data-file="043-user-interaction-review-remove-user-02" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-notify-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-notify-user</div>
+            <div class="author-name">Author: <a data-file="044-user-interaction-review-notify-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-mail-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-mail-user</div>
+            <div class="author-name">Author: <a data-file="045-user-interaction-review-mail-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-lock-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-lock-user</div>
+            <div class="author-name">Author: <a data-file="046-user-interaction-review-lock-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-edit-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-edit-user</div>
+            <div class="author-name">Author: <a data-file="047-user-interaction-review-edit-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-lock-user-rd"></div>
+            <div class="class-name">.flaticon-user-interaction-review-lock-user-rd</div>
+            <div class="author-name">Author: <a data-file="048-user-interaction-review-lock-user-rd" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-favorite-user-rd"></div>
+            <div class="class-name">.flaticon-user-interaction-review-favorite-user-rd</div>
+            <div class="author-name">Author: <a data-file="049-user-interaction-review-favorite-user-rd" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-favorite-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-favorite-user</div>
+            <div class="author-name">Author: <a data-file="050-user-interaction-review-favorite-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-delete-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-delete-user</div>
+            <div class="author-name">Author: <a data-file="051-user-interaction-review-delete-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-delete-user-rd"></div>
+            <div class="class-name">.flaticon-user-interaction-review-delete-user-rd</div>
+            <div class="author-name">Author: <a data-file="052-user-interaction-review-delete-user-rd" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-call-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-call-user</div>
+            <div class="author-name">Author: <a data-file="053-user-interaction-review-call-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-bookmark-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-bookmark-user</div>
+            <div class="author-name">Author: <a data-file="054-user-interaction-review-bookmark-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-block-user"></div>
+            <div class="class-name">.flaticon-user-interaction-review-block-user</div>
+            <div class="author-name">Author: <a data-file="055-user-interaction-review-block-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-bookmark-user-rd-36"></div>
+            <div class="class-name">.flaticon-user-interaction-review-bookmark-user-rd-36</div>
+            <div class="author-name">Author: <a data-file="056-user-interaction-review-bookmark-user-rd-36" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-interaction-review-add-user-rd"></div>
+            <div class="class-name">.flaticon-user-interaction-review-add-user-rd</div>
+            <div class="author-name">Author: <a data-file="057-user-interaction-review-add-user-rd" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-youtube"></div>
+            <div class="class-name">.flaticon-sociai-icons-youtube</div>
+            <div class="author-name">Author: <a data-file="058-sociai-icons-youtube" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-whatsapp"></div>
+            <div class="class-name">.flaticon-sociai-icons-whatsapp</div>
+            <div class="author-name">Author: <a data-file="059-sociai-icons-whatsapp" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-vimeo"></div>
+            <div class="class-name">.flaticon-sociai-icons-vimeo</div>
+            <div class="author-name">Author: <a data-file="060-sociai-icons-vimeo" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-twitter-73"></div>
+            <div class="class-name">.flaticon-sociai-icons-twitter-73</div>
+            <div class="author-name">Author: <a data-file="061-sociai-icons-twitter-73" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-twitter-74"></div>
+            <div class="class-name">.flaticon-sociai-icons-twitter-74</div>
+            <div class="author-name">Author: <a data-file="062-sociai-icons-twitter-74" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-tumblr12"></div>
+            <div class="class-name">.flaticon-sociai-icons-tumblr12</div>
+            <div class="author-name">Author: <a data-file="063-sociai-icons-tumblr12" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-pininterest-88"></div>
+            <div class="class-name">.flaticon-sociai-icons-pininterest-88</div>
+            <div class="author-name">Author: <a data-file="064-sociai-icons-pininterest-88" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-linkedin"></div>
+            <div class="class-name">.flaticon-sociai-icons-linkedin</div>
+            <div class="author-name">Author: <a data-file="065-sociai-icons-linkedin" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-map"></div>
+            <div class="class-name">.flaticon-sociai-icons-map</div>
+            <div class="author-name">Author: <a data-file="066-sociai-icons-map" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-linkedin-1"></div>
+            <div class="class-name">.flaticon-sociai-icons-linkedin-1</div>
+            <div class="author-name">Author: <a data-file="067-sociai-icons-linkedin-1" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-instagram"></div>
+            <div class="class-name">.flaticon-sociai-icons-instagram</div>
+            <div class="author-name">Author: <a data-file="068-sociai-icons-instagram" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-google-91"></div>
+            <div class="class-name">.flaticon-sociai-icons-google-91</div>
+            <div class="author-name">Author: <a data-file="069-sociai-icons-google-91" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-google-38"></div>
+            <div class="class-name">.flaticon-sociai-icons-google-38</div>
+            <div class="author-name">Author: <a data-file="070-sociai-icons-google-38" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-facebook-28"></div>
+            <div class="class-name">.flaticon-sociai-icons-facebook-28</div>
+            <div class="author-name">Author: <a data-file="071-sociai-icons-facebook-28" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-facebook-21"></div>
+            <div class="class-name">.flaticon-sociai-icons-facebook-21</div>
+            <div class="author-name">Author: <a data-file="072-sociai-icons-facebook-21" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sociai-icons-baidu"></div>
+            <div class="class-name">.flaticon-sociai-icons-baidu</div>
+            <div class="author-name">Author: <a data-file="073-sociai-icons-baidu" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-household-round-clock"></div>
+            <div class="class-name">.flaticon-household-round-clock</div>
+            <div class="author-name">Author: <a data-file="074-household-round-clock" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-household-pan"></div>
+            <div class="class-name">.flaticon-household-pan</div>
+            <div class="author-name">Author: <a data-file="075-household-pan" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-household-frame"></div>
+            <div class="class-name">.flaticon-household-frame</div>
+            <div class="author-name">Author: <a data-file="076-household-frame" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-household-clock-block"></div>
+            <div class="class-name">.flaticon-household-clock-block</div>
+            <div class="author-name">Author: <a data-file="077-household-clock-block" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-gesture-finger-press"></div>
+            <div class="class-name">.flaticon-gesture-finger-press</div>
+            <div class="author-name">Author: <a data-file="078-gesture-finger-press" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-games-entertainment-archery-2"></div>
+            <div class="class-name">.flaticon-games-entertainment-archery-2</div>
+            <div class="author-name">Author: <a data-file="080-games-entertainment-archery-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-games-entertainment-football"></div>
+            <div class="class-name">.flaticon-games-entertainment-football</div>
+            <div class="author-name">Author: <a data-file="081-games-entertainment-football" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-games-entertainment-archery-1"></div>
+            <div class="class-name">.flaticon-games-entertainment-archery-1</div>
+            <div class="author-name">Author: <a data-file="082-games-entertainment-archery-1" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-finance-shopping-dollars"></div>
+            <div class="class-name">.flaticon-finance-shopping-dollars</div>
+            <div class="author-name">Author: <a data-file="083-finance-shopping-dollars" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-user"></div>
+            <div class="class-name">.flaticon-document-folder-user</div>
+            <div class="author-name">Author: <a data-file="084-document-folder-user" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-download-67"></div>
+            <div class="class-name">.flaticon-document-folder-download-67</div>
+            <div class="author-name">Author: <a data-file="085-document-folder-download-67" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-download-68"></div>
+            <div class="class-name">.flaticon-document-folder-download-68</div>
+            <div class="author-name">Author: <a data-file="086-document-folder-download-68" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-board-minus"></div>
+            <div class="class-name">.flaticon-document-folder-board-minus</div>
+            <div class="author-name">Author: <a data-file="087-document-folder-board-minus" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-doc"></div>
+            <div class="class-name">.flaticon-document-folder-doc</div>
+            <div class="author-name">Author: <a data-file="088-document-folder-doc" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-board-edit"></div>
+            <div class="class-name">.flaticon-document-folder-board-edit</div>
+            <div class="author-name">Author: <a data-file="089-document-folder-board-edit" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-board-close"></div>
+            <div class="class-name">.flaticon-document-folder-board-close</div>
+            <div class="author-name">Author: <a data-file="090-document-folder-board-close" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-board-check"></div>
+            <div class="class-name">.flaticon-document-folder-board-check</div>
+            <div class="author-name">Author: <a data-file="091-document-folder-board-check" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-board-add"></div>
+            <div class="class-name">.flaticon-document-folder-board-add</div>
+            <div class="author-name">Author: <a data-file="092-document-folder-board-add" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-document-folder-adobe-acrobat"></div>
+            <div class="class-name">.flaticon-document-folder-adobe-acrobat</div>
+            <div class="author-name">Author: <a data-file="093-document-folder-adobe-acrobat" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-large-phone"></div>
+            <div class="class-name">.flaticon-devices-network-large-phone</div>
+            <div class="author-name">Author: <a data-file="094-devices-network-large-phone" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-floppy"></div>
+            <div class="class-name">.flaticon-devices-network-floppy</div>
+            <div class="author-name">Author: <a data-file="095-devices-network-floppy" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cloud-up"></div>
+            <div class="class-name">.flaticon-devices-network-cloud-up</div>
+            <div class="author-name">Author: <a data-file="096-devices-network-cloud-up" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cloud-right"></div>
+            <div class="class-name">.flaticon-devices-network-cloud-right</div>
+            <div class="author-name">Author: <a data-file="097-devices-network-cloud-right" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cloud-close"></div>
+            <div class="class-name">.flaticon-devices-network-cloud-close</div>
+            <div class="author-name">Author: <a data-file="099-devices-network-cloud-close" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cam-4"></div>
+            <div class="class-name">.flaticon-devices-network-cam-4</div>
+            <div class="author-name">Author: <a data-file="100-devices-network-cam-4" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cam-2"></div>
+            <div class="class-name">.flaticon-devices-network-cam-2</div>
+            <div class="author-name">Author: <a data-file="101-devices-network-cam-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cam-1-25"></div>
+            <div class="class-name">.flaticon-devices-network-cam-1-25</div>
+            <div class="author-name">Author: <a data-file="102-devices-network-cam-1-25" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-cam-1-11"></div>
+            <div class="class-name">.flaticon-devices-network-cam-1-11</div>
+            <div class="author-name">Author: <a data-file="103-devices-network-cam-1-11" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-ii-check-file"></div>
+            <div class="class-name">.flaticon-devices-network-ii-check-file</div>
+            <div class="author-name">Author: <a data-file="104-devices-network-ii-check-file" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-devices-network-ii-bookmark-file"></div>
+            <div class="class-name">.flaticon-devices-network-ii-bookmark-file</div>
+            <div class="author-name">Author: <a data-file="105-devices-network-ii-bookmark-file" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-design-trash"></div>
+            <div class="class-name">.flaticon-design-trash</div>
+            <div class="author-name">Author: <a data-file="106-design-trash" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-design-square"></div>
+            <div class="class-name">.flaticon-design-square</div>
+            <div class="author-name">Author: <a data-file="107-design-square" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-design-star"></div>
+            <div class="class-name">.flaticon-design-star</div>
+            <div class="author-name">Author: <a data-file="108-design-star" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-celebration-holidays-ship"></div>
+            <div class="class-name">.flaticon-celebration-holidays-ship</div>
+            <div class="author-name">Author: <a data-file="109-celebration-holidays-ship" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-celebration-holidays-bag-2"></div>
+            <div class="class-name">.flaticon-celebration-holidays-bag-2</div>
+            <div class="author-name">Author: <a data-file="110-celebration-holidays-bag-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-buildings-14"></div>
+            <div class="class-name">.flaticon-buildings-14</div>
+            <div class="author-name">Author: <a data-file="111-buildings-14" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-celebration-holidays-candles-44"></div>
+            <div class="class-name">.flaticon-celebration-holidays-candles-44</div>
+            <div class="author-name">Author: <a data-file="112-celebration-holidays-candles-44" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-56"></div>
+            <div class="class-name">.flaticon-office-56</div>
+            <div class="author-name">Author: <a data-file="114-office-56" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-buildings-05"></div>
+            <div class="class-name">.flaticon-buildings-05</div>
+            <div class="author-name">Author: <a data-file="115-buildings-05" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-buildings-04"></div>
+            <div class="class-name">.flaticon-buildings-04</div>
+            <div class="author-name">Author: <a data-file="116-buildings-04" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-51"></div>
+            <div class="class-name">.flaticon-office-51</div>
+            <div class="author-name">Author: <a data-file="117-office-51" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-22"></div>
+            <div class="class-name">.flaticon-office-22</div>
+            <div class="author-name">Author: <a data-file="118-office-22" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-40"></div>
+            <div class="class-name">.flaticon-office-40</div>
+            <div class="author-name">Author: <a data-file="119-office-40" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-39"></div>
+            <div class="class-name">.flaticon-office-39</div>
+            <div class="author-name">Author: <a data-file="120-office-39" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-19"></div>
+            <div class="class-name">.flaticon-office-19</div>
+            <div class="author-name">Author: <a data-file="121-office-19" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-05"></div>
+            <div class="class-name">.flaticon-office-05</div>
+            <div class="author-name">Author: <a data-file="122-office-05" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-office-01"></div>
+            <div class="class-name">.flaticon-office-01</div>
+            <div class="author-name">Author: <a data-file="123-office-01" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-map-locate-3"></div>
+            <div class="class-name">.flaticon-map-and-locations-map-locate-3</div>
+            <div class="author-name">Author: <a data-file="124-map-and-locations-map-locate-3" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-map-add"></div>
+            <div class="class-name">.flaticon-map-and-locations-map-add</div>
+            <div class="author-name">Author: <a data-file="125-map-and-locations-map-add" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-locate-5"></div>
+            <div class="class-name">.flaticon-map-and-locations-locate-5</div>
+            <div class="author-name">Author: <a data-file="126-map-and-locations-locate-5" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-locate-4"></div>
+            <div class="class-name">.flaticon-map-and-locations-locate-4</div>
+            <div class="author-name">Author: <a data-file="127-map-and-locations-locate-4" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-loacte"></div>
+            <div class="class-name">.flaticon-map-and-locations-loacte</div>
+            <div class="author-name">Author: <a data-file="128-map-and-locations-loacte" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-globe"></div>
+            <div class="class-name">.flaticon-map-and-locations-globe</div>
+            <div class="author-name">Author: <a data-file="129-map-and-locations-globe" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-shutter"></div>
+            <div class="class-name">.flaticon-image-video-shutter</div>
+            <div class="author-name">Author: <a data-file="130-image-video-shutter" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-flag-2"></div>
+            <div class="class-name">.flaticon-map-and-locations-flag-2</div>
+            <div class="author-name">Author: <a data-file="131-map-and-locations-flag-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-globe-search"></div>
+            <div class="class-name">.flaticon-map-and-locations-globe-search</div>
+            <div class="author-name">Author: <a data-file="132-map-and-locations-globe-search" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map-and-locations-flag-1"></div>
+            <div class="class-name">.flaticon-map-and-locations-flag-1</div>
+            <div class="author-name">Author: <a data-file="133-map-and-locations-flag-1" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-search-file"></div>
+            <div class="class-name">.flaticon-image-video-search-file</div>
+            <div class="author-name">Author: <a data-file="134-image-video-search-file" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-photos-2"></div>
+            <div class="class-name">.flaticon-image-video-photos-2</div>
+            <div class="author-name">Author: <a data-file="135-image-video-photos-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-palyer"></div>
+            <div class="class-name">.flaticon-image-video-palyer</div>
+            <div class="author-name">Author: <a data-file="136-image-video-palyer" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-paly"></div>
+            <div class="class-name">.flaticon-image-video-paly</div>
+            <div class="author-name">Author: <a data-file="137-image-video-paly" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-movie"></div>
+            <div class="class-name">.flaticon-image-video-movie</div>
+            <div class="author-name">Author: <a data-file="138-image-video-movie" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-image-file"></div>
+            <div class="class-name">.flaticon-image-video-image-file</div>
+            <div class="author-name">Author: <a data-file="139-image-video-image-file" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-focus"></div>
+            <div class="class-name">.flaticon-image-video-focus</div>
+            <div class="author-name">Author: <a data-file="140-image-video-focus" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-cam"></div>
+            <div class="class-name">.flaticon-image-video-cam</div>
+            <div class="author-name">Author: <a data-file="141-image-video-cam" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-cam-3"></div>
+            <div class="class-name">.flaticon-image-video-cam-3</div>
+            <div class="author-name">Author: <a data-file="142-image-video-cam-3" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-cam-1"></div>
+            <div class="class-name">.flaticon-image-video-cam-1</div>
+            <div class="author-name">Author: <a data-file="143-image-video-cam-1" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-video-board-paper"></div>
+            <div class="class-name">.flaticon-image-video-board-paper</div>
+            <div class="author-name">Author: <a data-file="144-image-video-board-paper" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-top-arrow-41"></div>
+            <div class="class-name">.flaticon-control-navigation-top-arrow-41</div>
+            <div class="author-name">Author: <a data-file="145-control-navigation-top-arrow-41" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-editing-verticle-scale"></div>
+            <div class="class-name">.flaticon-editing-verticle-scale</div>
+            <div class="author-name">Author: <a data-file="146-editing-verticle-scale" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-editing-compress"></div>
+            <div class="class-name">.flaticon-editing-compress</div>
+            <div class="author-name">Author: <a data-file="147-editing-compress" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-up-arw"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-up-arw</div>
+            <div class="author-name">Author: <a data-file="148-control-navigation-ii-up-arw" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-right-move"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-right-move</div>
+            <div class="author-name">Author: <a data-file="149-control-navigation-ii-right-move" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-upload"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-upload</div>
+            <div class="author-name">Author: <a data-file="150-control-navigation-ii-upload" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-right-move-2"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-right-move-2</div>
+            <div class="author-name">Author: <a data-file="151-control-navigation-ii-right-move-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-left-move"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-left-move</div>
+            <div class="author-name">Author: <a data-file="152-control-navigation-ii-left-move" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-left-move-2"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-left-move-2</div>
+            <div class="author-name">Author: <a data-file="153-control-navigation-ii-left-move-2" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-dropdown"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-dropdown</div>
+            <div class="author-name">Author: <a data-file="154-control-navigation-ii-dropdown" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-ii-download"></div>
+            <div class="class-name">.flaticon-control-navigation-ii-download</div>
+            <div class="author-name">Author: <a data-file="155-control-navigation-ii-download" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-top3-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-top3-arrow</div>
+            <div class="author-name">Author: <a data-file="156-control-navigation-top3-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-top2-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-top2-arrow</div>
+            <div class="author-name">Author: <a data-file="157-control-navigation-top2-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-top-arrow-33"></div>
+            <div class="class-name">.flaticon-control-navigation-top-arrow-33</div>
+            <div class="author-name">Author: <a data-file="158-control-navigation-top-arrow-33" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-right3-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-right3-arrow</div>
+            <div class="author-name">Author: <a data-file="159-control-navigation-right3-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-stop-29"></div>
+            <div class="class-name">.flaticon-control-navigation-stop-29</div>
+            <div class="author-name">Author: <a data-file="160-control-navigation-stop-29" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-right2-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-right2-arrow</div>
+            <div class="author-name">Author: <a data-file="161-control-navigation-right2-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-right-arrow-40"></div>
+            <div class="class-name">.flaticon-control-navigation-right-arrow-40</div>
+            <div class="author-name">Author: <a data-file="162-control-navigation-right-arrow-40" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-right-arrow-32"></div>
+            <div class="class-name">.flaticon-control-navigation-right-arrow-32</div>
+            <div class="author-name">Author: <a data-file="163-control-navigation-right-arrow-32" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-reload"></div>
+            <div class="class-name">.flaticon-control-navigation-reload</div>
+            <div class="author-name">Author: <a data-file="164-control-navigation-reload" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-pluse-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-pluse-arrow</div>
+            <div class="author-name">Author: <a data-file="165-control-navigation-pluse-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-left3-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-left3-arrow</div>
+            <div class="author-name">Author: <a data-file="166-control-navigation-left3-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-left2-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-left2-arrow</div>
+            <div class="author-name">Author: <a data-file="167-control-navigation-left2-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-left-arrow-39"></div>
+            <div class="class-name">.flaticon-control-navigation-left-arrow-39</div>
+            <div class="author-name">Author: <a data-file="168-control-navigation-left-arrow-39" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-left-arrow-31"></div>
+            <div class="class-name">.flaticon-control-navigation-left-arrow-31</div>
+            <div class="author-name">Author: <a data-file="169-control-navigation-left-arrow-31" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-extand-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-extand-arrow</div>
+            <div class="author-name">Author: <a data-file="170-control-navigation-extand-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-down-play"></div>
+            <div class="class-name">.flaticon-control-navigation-down-play</div>
+            <div class="author-name">Author: <a data-file="171-control-navigation-down-play" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-down3-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-down3-arrow</div>
+            <div class="author-name">Author: <a data-file="172-control-navigation-down3-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-down2-arrow"></div>
+            <div class="class-name">.flaticon-control-navigation-down2-arrow</div>
+            <div class="author-name">Author: <a data-file="173-control-navigation-down2-arrow" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-down-arrow-42"></div>
+            <div class="class-name">.flaticon-control-navigation-down-arrow-42</div>
+            <div class="author-name">Author: <a data-file="174-control-navigation-down-arrow-42" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-down-arrow-34"></div>
+            <div class="class-name">.flaticon-control-navigation-down-arrow-34</div>
+            <div class="author-name">Author: <a data-file="176-control-navigation-down-arrow-34" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-adjust-lavel"></div>
+            <div class="class-name">.flaticon-control-navigation-adjust-lavel</div>
+            <div class="author-name">Author: <a data-file="177-control-navigation-adjust-lavel" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-anti-reload"></div>
+            <div class="class-name">.flaticon-control-navigation-anti-reload</div>
+            <div class="author-name">Author: <a data-file="178-control-navigation-anti-reload" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-control-3"></div>
+            <div class="class-name">.flaticon-control-navigation-control-3</div>
+            <div class="author-name">Author: <a data-file="179-control-navigation-control-3" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-control-navigation-adjust"></div>
+            <div class="class-name">.flaticon-control-navigation-adjust</div>
+            <div class="author-name">Author: <a data-file="180-control-navigation-adjust" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-car"></div>
+            <div class="class-name">.flaticon-car</div>
+            <div class="author-name">Author: <a data-file="181-car" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-remove"></div>
+            <div class="class-name">.flaticon-remove</div>
+            <div class="author-name">Author: <a data-file="182-remove" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-motorcycle"></div>
+            <div class="class-name">.flaticon-motorcycle</div>
+            <div class="author-name">Author: <a data-file="183-motorcycle" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-add-plus-button"></div>
+            <div class="class-name">.flaticon-add-plus-button</div>
+            <div class="author-name">Author: <a data-file="184-add-plus-button" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-user-black-close-up-shape"></div>
+            <div class="class-name">.flaticon-user-black-close-up-shape</div>
+            <div class="author-name">Author: <a data-file="185-user-black-close-up-shape" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-check-box"></div>
+            <div class="class-name">.flaticon-check-box</div>
+            <div class="author-name">Author: <a data-file="186-check-box" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tag-black-shape"></div>
+            <div class="class-name">.flaticon-tag-black-shape</div>
+            <div class="author-name">Author: <a data-file="188-tag-black-shape" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tags"></div>
+            <div class="class-name">.flaticon-tags</div>
+            <div class="author-name">Author: <a data-file="189-tags" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-phone-call"></div>
+            <div class="class-name">.flaticon-phone-call</div>
+            <div class="author-name">Author: <a data-file="190-phone-call" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-google-plus"></div>
+            <div class="class-name">.flaticon-google-plus</div>
+            <div class="author-name">Author: <a data-file="191-google-plus" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-briefcase"></div>
+            <div class="class-name">.flaticon-briefcase</div>
+            <div class="author-name">Author: <a data-file="192-briefcase" href="https://www.flaticon.com/authors/user">User</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-board"></div>
+            <div class="class-name">.flaticon-board</div>
+            <div class="author-name">Author: <a data-file="193-board" href="https://www.flaticon.com/authors/soodesign">Soodesign</a> </div> 
+        </div>        
+        
+
+    </section>
+
+
+
+    <section class="attribution wrapper"   style="text-align:center;">
+
+      <div class="title">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>. <div><p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="193-board" href="https://www.flaticon.com/authors/soodesign">Soodesign</a>, <a data-file="-04-userinterface-uploads" href="https://www.flaticon.com/authors/user">User</a></p>  </div>
+      </div>
+      <div class="title">Copy the Attribution License:</div>
+
+    <textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;. <p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="193-board" href="https://www.flaticon.com/authors/soodesign">Soodesign</a>, <a data-file="-04-userinterface-uploads" href="https://www.flaticon.com/authors/user">User</a></p>  
+     </textarea>
+
+    </section>
+
+    <section class="iconsuse">
+
+          <div class="title">Examples:</div>            
+             
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon--01-userinterface-trash"></i> 
+                    <span>&lt;i class=&quot;flaticon--01-userinterface-trash&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon--02-userinterface-note"></i> 
+                    <span>&lt;i class=&quot;flaticon--02-userinterface-note&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon--03-userinterface-unloack"></i> 
+                    <span>&lt;i class=&quot;flaticon--03-userinterface-unloack&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon--04-userinterface-uploads"></i> 
+                    <span>&lt;i class=&quot;flaticon--04-userinterface-uploads&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+                       
+        </div>
+                            
+    </section>
+
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>
